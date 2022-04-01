@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:3000/api/";
+export const BASE_URL = "https://tosearch.herokuapp.com/api/";
 export const indexer = [
   {
     endpoint: "1337x",
