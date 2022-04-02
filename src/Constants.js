@@ -8,7 +8,7 @@ export const indexer = [
 
     {
     endpoint: "search",
-    website: "ALL Providers",
+    website: "ALLProviders",
   },
   
   {
