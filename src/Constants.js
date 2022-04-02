@@ -6,6 +6,11 @@ export const indexer = [
     website: "1337x",
   },
 
+    {
+    endpoint: "search",
+    website: "ALL Providers",
+  },
+  
   {
     endpoint: "eztv",
     website: "eztv",
