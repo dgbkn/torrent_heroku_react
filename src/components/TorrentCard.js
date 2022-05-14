@@ -46,7 +46,7 @@ class TorrentCard extends Component {
             magnetUrl: res.data["magnet"],
             loading: false,
           });
-          window.location.replace(`https://thawning.tanishagoyal.repl.co/seedr/stream?hash=558fa765f980b01f1c2e5e4ae37bfe3502ba33c1ec90cc5bb659dbb250bc6c813bde363a2055bf1ae8d9e0dd101d166fpu3d5hWgFdAHXzF0EumwUE1moKtyN8mjzesi2ym2mbwf4YGUAU3mX5CnWgu42pPwZCfQKQK9GDpAl%2BKm3XbW1A%3D%3D&link=${encodeURIComponent(res.data["magnet"])}`);
+          window.location.replace(`https://seedr.torrentdev.workers.dev/addMagnet?magnet=${encodeURIComponent(res.data["magnet"])}`);
         }
       })
       .catch((err) => {
